@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <style>
+
+        @font-face {
+            font-family: metalmania;
+            src: url(MetalMania-Regular.ttf);
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: black;
+        }
+    
+
+        #div1 {
+            display: flex;
+            justify-content: center;
+            height: fit-content;
+            width: fit-content;
+            
+        }
+
+        #chamas {
+            font-size: 300px;
+            font-family: metalmania;
+            line-height: 900px;
+            background-image: url(https://github.com/kodfun/Reels/blob/master/BackgroundClip/flame.gif?raw=true);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            color: transparent;
+        
+        }
+
+        @media screen and (max-width: 767px) {
+        html, body {
+        margin: 0;
+        padding: 0;
+        font-family: metalmania;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        }
+
+    
+        #chamas {
+            font-size: 100px;
+        }
+
+        }
+
+
+        @media screen and (max-width: 430px) {
+        html, body {
+        margin: 0;
+        padding: 0;
+        font-family: metalmania;
+        background-color: black;
+        }
+
+
+        body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        }
+        
+        #chamas {
+            font-size: 90px;
+            
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="div1">
+        <h1 id="chamas">
+            WELCOME
+        </h1>
+    </div>
+
+</body>
+</html>
