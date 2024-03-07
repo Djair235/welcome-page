@@ -9,8 +9,10 @@
         @font-face {
             font-family: metalmania;
             src: url(MetalMania-Regular.ttf);
+            font-size: normal;
         }
         body {
+            height: 100vh;
             display: flex;
             justify-content: center;
             text-align: center;
@@ -27,7 +29,7 @@
         }
 
         #chamas {
-            font-size: 300px;
+            font-size: 11.5vw;
             font-family: metalmania;
             line-height: 900px;
             background-image: url(https://github.com/kodfun/Reels/blob/master/BackgroundClip/flame.gif?raw=true);
@@ -40,6 +42,7 @@
 
         @media screen and (max-width: 767px) {
         html, body {
+        height: 100vh;
         margin: 0;
         padding: 0;
         font-family: metalmania;
@@ -51,7 +54,7 @@
 
     
         #chamas {
-            font-size: 100px;
+            font-size: 20.5vw;
         }
 
         }
@@ -59,6 +62,10 @@
 
         @media screen and (max-width: 430px) {
         html, body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
         margin: 0;
         padding: 0;
         font-family: metalmania;
@@ -73,11 +80,13 @@
         }
         
         #chamas {
-            font-size: 90px;
+            font-size: 20vw;
             
         }
         }
     </style>
+
+    
 </head>
 <body>
 
